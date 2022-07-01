@@ -1,0 +1,46 @@
+.box{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 80px;
+ height: 80px;
+ background-color: white;
+ border: 10px solid #000000;
+ border-radius: 10px;
+ font-size: 64px;
+ font-family: 'Finger Paint', sans-serif;
+ font-weight: 400;
+ line-height: 94px;
+ margin-left: 10px;
+ margin-top: 10px;
+ cursor: pointer;
+ 
+}
+.win{
+    border: 10px solid purple;
+}
+.owin{
+    background-color:#0026ED ;
+}
+.xvalues{
+    font-family: 'Finger Paint';
+    font-style: normal;
+font-weight: 400;
+position: absolute;
+width: 47px;
+height: 94px;
+font-size: 64px;
+line-height: 94px;
+color: #FF0505;
+}
+.yvalues{
+    font-family: 'Finger Paint';
+    font-style: normal;
+font-weight: 400;
+position: absolute;
+width: 47px;
+height: 94px;
+font-size: 64px;
+line-height: 94px;
+color: #0026ED;
+}
